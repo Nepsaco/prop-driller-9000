@@ -12,12 +12,12 @@ export default class ProptimusOmega extends React.Component {
     return(
       <section>
         <img
-          src={/*Identify your image source from your props here.*/}
+          src={this.props.proptimusPhoto}
           className="App-logo"
           alt="logo"
           onClick={this.props.callForBetterHelp}
         />
-        <p>{this.props.catchPhrase}</p>
+        <p>{this.props.proptimusCatchPhrase}</p>
       </section>
     )
   }
